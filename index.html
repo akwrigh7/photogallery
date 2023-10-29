@@ -8,62 +8,126 @@
     <title>Document</title>
 </head>
 <body>
-    TK Photography
-About
-Gallery
-Contact
-top
-About
-Hello! 
-I’m TK and I’m a photographer. I love looking at life through the lens of my camera. Landscape photography is my speciality and it’s taken me all over the world. 
-Gallery
-Here are some highlights of my work. The locations and year are in the caption. 
+    <header id="top">
+        <h1>TK Photography</h1>
+    </header>
 
-Chile.png
-Chile, 2001
+    <nav>
+        <ul>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Gallery</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#top">top</a></li>
+        </ul>
+    </nav>
 
-Guatemala.png
-Guatemala, 1997
+    <main>
+        <section id="about">
+            <h2>About</h2>
+            <p>Hello!</p>
+            <p>I’m TK and I’m a photographer. I love looking at life through the lens of my camera. Landscape photography is my speciality and it’s taken me all over the world.</p>
+        </section>
+        <section id="gallery">
+            <h2>Gallery</h2>
+            <p>Here are some highlights of my work. The locations and year are in the caption.</p>
+        </section>
 
-Hawaii.png
-Hawaii, 2010
+        <section>
+            <img src="images/Chile.png" alt="beach">
+            <p class="botWhite">Chile, 2001</p>
+        </section>
 
-Iran.png
-Iran, 1999
+        <section>
+            <img src="images/Guatemala.png" alt="horizon">
+            <p class="topWhite">Guatemala, 1997</p>
+        </section>
 
-Ireland.png
-Ireland, 2012
+        <section>
+            <img src="images/Hawaii.png" alt="mountains">
+            <p class="botWhite">Hawaii, 2010</p>
+        </section>
 
-Italy.png
-Italy, 2015
+        <section>
+            <img src="images/Iran.png" alt="sandy">
+            <p class="topBlack">Iran, 1999</p>
+        </section>
 
-Moab-Desert.png
-Moab Desert, 2020
+        <section>
+            <img src="images/Ireland.png" alt="green">
+            <p class="topBlack">Ireland, 2012</p>
+        </section>
 
-Rocky-Mountains.png
-Rocky Mountains, 2009
+        <section>
+            <img src="images/Italy.png" alt="lake">
+            <p class="botBlack">Italy, 2015</p>
+        </section>
 
-Switzerland.png
-Switzerland, 2014
+        <section>
+            <img src="images/Moab-Desert.png" alt="sunset">
+            <p class="botWhite">Moab Desert, 2020</p>
+        </section>
 
-UK.png
-UK, 2005
+        <section>
+            <img src="images/Rocky-Mountains.png" alt="rocky">
+            <p class="topBlack">Rocky Mountains, 2009</p>
+        </section>
 
-USA.png
-USA, 2021
+        <section>
+            <img src="images/Switzerland.png" alt="snowy">
+            <p class="topBlack">Switzerland, 2014</p>
+        </section>
 
-Wyoming.png
-Wyoming, 2021
-Contact
-Please fill out this form and I’ll connect with you soon.
+        <section>
+            <img src="images/UK.png" alt="valley">
+            <p class="topBlack">UK, 2005</p>
+        </section>
 
-Your contact information
-Name (Your full name)
-Email (Enter your email address)
-Message (What can I help you with?)
-Submit
+        <section>
+            <img src="images/USA.png" alt="grassy">
+            <p class="topBlack">USA, 2021</p>
+        </section>
 
-Copyright 2021 TK Photography
+        <section>
+            <img src="images/Wyoming.png" alt="trees">
+            <p class="topWhite">Wyoming, 2021</p>
+        </section>
+
+        <section>
+            <h2>Contact</h2>
+            <p>Please fill out this form and I’ll connect with you soon.</p>
+        </section>
+
+        <section>
+            <form action="#">
+                <label for="fname">Name</label><br>
+                <input type="text" id="fname" name="fname" value="Your full name"><br>
+            </form>
+        </section>
+
+        <section>
+            <form action="#">
+                <label for="email">Email</label><br>
+                <input type="text" id="email" name="email" value="Enter your email address"><br>
+            </form>
+        </section>
+
+        <section>
+            <form action="#">
+                <label for="mess">Message</label><br>
+                <input type="text" id="mess" name="mess" value="What can I help you with?"><br>
+            </form>
+        </section>
+
+        <section>
+            <form>
+                <input type="submit" value="Submit">
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>Copyright 2021 TK Photography</p>
+    </footer>
 
 </body>
 </html>
