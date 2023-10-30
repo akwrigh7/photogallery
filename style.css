@@ -18,7 +18,7 @@ header {
 
 nav {
     background-color: black;
-    
+    padding-top: 10px;
 }
 
 nav li {
@@ -35,7 +35,8 @@ a {
     
 }
 
-#content {
+
+#white {
     background-color: white;
 }
 
@@ -49,7 +50,8 @@ a {
     position:fixed;
     bottom:0px;
     right:0px;
-    border-radius:10px 0 0px 0px;
+    border: 4px solid white;
+    padding: 15px;
 }
 
 #forms {
@@ -82,7 +84,7 @@ img {
     top: 3%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 300px
+    width: 300px;
 }
 
 .botBlack {
@@ -118,7 +120,7 @@ img {
     padding-bottom: 8px;
     color: white;
     background-color:#007d7b;
-    border-radius: 12px;
+    border-radius: 15px;
     margin-top: 20px;
     text-transform: uppercase;
     margin-bottom: 40px;
@@ -145,12 +147,13 @@ input[type="text"] {
 
 #forms label {
     float: left;
-    margin-left: 12px
+    margin-left: 12px;
 }
 
 
 footer {
     color: white;
+    text-transform: uppercase;
 }
 
 
@@ -170,6 +173,7 @@ h1 {
     font-size: 3em;
     text-transform: uppercase;
     color: #007d7b;
+    margin: 0;
 }
 
 h2 {
@@ -177,18 +181,70 @@ h2 {
     text-transform: uppercase;
 }
 
-
-
-
-
-
-
 @media screen and (min-width:880px) {
+    body {
+        width: 880px;
+        
+    }
 
+    h1 {
+        text-align: left;
+        margin-left: 10px;
+    }
+
+    #photos {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    #hawaii {
+        bottom: 350px;
+    }
+
+    #button{
+        padding-left: 200px;
+        padding-right: 200px;
+    }
+    
+    #forms {
+        width: 750px;
+    }
+
+    #forms input {
+        width: 750px;
+    }
 }
 
 
 
 @media screen and (min-width:1300px) {
+    body {
+        width: 1300px;
+        
+    }
 
+    nav {
+        text-align: right;
+    }
+
+    #photos {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    #hawaii {
+        bottom: 0px;
+    }
+
+    #button{
+        padding-left: 290px;
+        padding-right: 290px;
+    }
+    
+    #forms {
+        width: 1050px;
+    }
+
+    #forms input {
+        width: 1050px;
+    }
 }
