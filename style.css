@@ -1,6 +1,5 @@
 html {
-    background-color: black;
-    
+    background-color: black; 
 }
 
 body {
@@ -12,7 +11,6 @@ body {
 
 header {
     background-color: white;
-    
 }
 
 
@@ -32,7 +30,6 @@ nav li {
 a {
     text-decoration: none;
     color: white;
-    
 }
 
 
@@ -43,8 +40,6 @@ a {
 #about h2 {
     padding-top: 15px;
 }
-
-
 
 [href="#top"] {
     position:fixed;
@@ -67,21 +62,26 @@ a {
 
 #about p, #gallery p {
     text-align: left;
-    padding-left: 10px
+    padding-left: 10px;
 }
 
-img {
-    padding-bottom: 20px;
+figure {
+    margin: 0;
+    padding-bottom: 15px;
 }
 
 .image {
     position: relative;
 }
 
+#iran, #ireland {
+    top: 4%;
+}
+
 .topBlack {
     text-transform: uppercase;
     position: absolute;
-    top: 3%;
+    top: 8%;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 300px;
@@ -90,7 +90,7 @@ img {
 .botBlack {
     text-transform: uppercase;
     position: absolute;
-    bottom: 0%;
+    bottom: 3%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
@@ -98,7 +98,7 @@ img {
 .topWhite {
     text-transform: uppercase;
     position: absolute;
-    top: 3%;
+    top: 8%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
@@ -107,7 +107,7 @@ img {
 .botWhite{
     text-transform: uppercase;
     position: absolute;
-    bottom: 0%;
+    bottom: 7%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
@@ -156,7 +156,6 @@ footer {
     text-transform: uppercase;
 }
 
-
 p {
     font-size: 1.25em;
 }
@@ -184,7 +183,6 @@ h2 {
 @media screen and (min-width:880px) {
     body {
         width: 880px;
-        
     }
 
     h1 {
@@ -198,7 +196,7 @@ h2 {
     }
 
     #hawaii {
-        bottom: 350px;
+        bottom: 370px;
     }
 
     #button{
@@ -207,20 +205,18 @@ h2 {
     }
     
     #forms {
-        width: 750px;
+        width: 710px;
     }
 
     #forms input {
-        width: 750px;
+        width: 710px;
     }
 }
-
 
 
 @media screen and (min-width:1300px) {
     body {
         width: 1300px;
-        
     }
 
     nav {
@@ -232,7 +228,7 @@ h2 {
     }
 
     #hawaii {
-        bottom: 0px;
+        bottom: 20px;
     }
 
     #button{
