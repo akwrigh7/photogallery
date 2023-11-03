@@ -113,6 +113,16 @@ figure {
     color: white;
 }
 
+#forms input {
+    width: 420px;
+    color:#007d7b;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 25px;
+}
+
 #button {
     padding-left: 90px;
     padding-right: 90px;
@@ -125,16 +135,6 @@ figure {
     text-transform: uppercase;
     margin-bottom: 40px;
     font-weight: bold;
-}
-
-#forms input {
-    width: 420px;
-    color:#007d7b;
-    text-transform: uppercase;
-    font-weight: bold;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    margin-bottom: 25px;
 }
 
 input::placeholder {
